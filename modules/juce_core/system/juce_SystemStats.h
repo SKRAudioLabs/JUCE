@@ -62,7 +62,7 @@ public:
         MacOSX_10_14    = MacOSX | 14,
         MacOSX_10_15    = MacOSX | 15,
         MacOSX_11_0     = MacOSX | 16,
-
+        MacOSX_11       = MacOSX | 16,
         Win2000         = Windows | 1,
         WinXP           = Windows | 2,
         WinVista        = Windows | 3,
