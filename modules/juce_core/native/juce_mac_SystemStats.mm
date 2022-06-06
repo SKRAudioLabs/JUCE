@@ -146,9 +146,9 @@ SystemStats::OperatingSystemType SystemStats::getOperatingSystemType()
         return (OperatingSystemType) (minor + MacOSX_10_7 - 7);
     }
 
-    jassert (major == 11);
+    // jassert (major == 11);
     return MacOSX_11;
-    return MacOSX_11_0;
+
    #endif
 }
 
